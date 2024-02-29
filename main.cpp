@@ -267,15 +267,17 @@ void process(istream &fin, vector<Effect> &pool, int sep) {
         if (line.substr(0, 2) == "//") continue;
         if (line.substr(0, 2) == "--") break;
         istringstream sin(line);
-        int weight;
-		string s; sin >> weight >> s;
+        int weight{0};
+		string s; sin >> s;
         int a = 1, b = 1, c = 1;
-        for (auto flag : s)
+        for (auto flag : s) {
+			if (isdigit(flag)) weight = weight * 10 + flag - '0';
             switch (flag) {
             case 'i': a = 0; break;
             case 'p': b = 0; break;
             case 'v': c = 0; break;
             }
+		}
         eatspace(sin);
         getline(sin, s);
 		// fin >> a >> b >> c;
