@@ -285,7 +285,7 @@ void process(istream &fin, vector<Effect> &pool, int sep) {
 	}
 }
 int main() {
-	ifstream fin("info.txt");
+	ifstream fin("goo/info.txt");
     process(fin, pool4, 0);
 	process(fin, pool0, 1);
 	process(fin, pool1, 2);
