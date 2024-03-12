@@ -13,7 +13,7 @@
     ],
     [
         "连续攻击<span class='positive'>${I(2,7)}</span>次",
-        "每次攻击造成相当于攻击力<span class='effect'>${I(23,197)}%</span>的伤害",
+        "每次攻击造成相当于攻击力<span class='positive'>${I(23,197)}%</span>的伤害",
         "攻击间隔<span class='effect'>变化(*${D(8,300)})</span>",
         "攻击时攻击力提高至<span class='positive'>${I(240,520)}%</span>",
         "每次攻击有<span class='positive'>${I(20,60)}%</span>的概率晕眩目标<span class='positive'>${D(75,225)}</span>秒",
