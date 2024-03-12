@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif;
+}
+.wikitable {
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+}
+.wikitable > * > tr > th {
+    background-color: rgba(213,215,219,.4);
+    border: 1px solid #a2a9b1;
+    padding: 0.2em 0.4em;
+}
+.wikitable > * > tr > td {
+    border: 1px solid #a2a9b1;
+    padding: 0.2em 0.4em;
+}
+.negative {
+    color: #FF6237;
+}
+.positive {
+    color: #0098DC;
+}
+.effect {
+    color: #F49800;
+}
+.skill {
+    margin-left: 5px;
+    padding-left:5px;
+    padding-right: 5px;
+    border-radius: 3px;
+    color: #FFF;
+}
+.atk {
+    background-color: #FC793E;
+}
+.auto {
+    background-color: #8EC31F;
+}
+.hit {
+
+
+}
+.passive {
+    background-color: #808080;
+}

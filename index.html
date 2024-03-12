@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="index.js"></script>
+	</head>
+	<body>
+		<input id="input" value="goo" type="text" onkeypress="handle_event(event);"></input>
+		<div id="result">
+			<h2>特性</h2>
+			<table class="wikitable">
+				<tbody>
+					<tr>
+						<th width="15%">分支</th>
+						<th>描述</th>
+					</tr>
+					<tr>
+						<td id="templatename"></td>
+						<td id="templateeffect"></td>
+					</tr>
+				</tbody>
+			</table>
+			<h2>天赋</h2>
+			<table class="wikitable">
+				<tbody>
+					<tr>
+						<th width="15%">天赋</th>
+						<th width="15%">名称</th>
+						<th width="15%">条件</th>
+						<th width="55%">描述</th>
+					</tr>
+					<tr>
+						<th>第一天赋</th>
+						<td>天赋1</td>
+						<td>精英2</td>
+						<td id="ability1"></td>
+					</tr>
+					<tr>
+						<th>第二天赋</th>
+						<td>天赋2</td>
+						<td>精英2</td>
+						<td id="ability2"></td>
+					</tr>
+				</tbody>
+			</table>
+			<h2>技能</h2>
+			<p>技能1（精英0开放）</p>
+			<table class="wikitable">
+				<tbody>
+					<tr>
+						<td id="skill1area" width="10%"></td>
+						<td width="45%">技能1</td>
+						<td id="skill1header" colspan="4" width="45%"></td>
+					</tr>
+					<tr>
+						<th width="10%">等级</th>
+						<th colspan="2" width="72%">描述</th>
+						<th width="6%">初始</th>
+						<th width="6%">消耗</th>
+						<th width="6%">持续</th>
+					</tr>
+					<tr>
+						<td>Rank III</td>
+						<td id="skill1effect" colspan="2"></td>
+						<td id="skill1initial"></td>
+						<td id="skill1cost"></td>
+						<td id="skill1span"></td>
+					</tr>
+				</tbody>
+			</table>
+			<p>技能2（精英1开放）</p>
+			<table class="wikitable">
+				<tbody>
+					<tr>
+						<td id="skill2area" width="10%"></td>
+						<td width="45%">技能2</td>
+						<td id="skill2header" colspan="4" width="45%"></td>
+					</tr>
+					<tr>
+						<th width="10%">等级</th>
+						<th colspan="2" width="72%">描述</th>
+						<th width="6%">初始</th>
+						<th width="6%">消耗</th>
+						<th width="6%">持续</th>
+					</tr>
+					<tr>
+						<td>Rank III</td>
+						<td id="skill2effect" colspan="2"></td>
+						<td id="skill2initial"></td>
+						<td id="skill2cost"></td>
+						<td id="skill2span"></td>
+					</tr>
+				</tbody>
+			</table>
+			<p>技能3（精英2开放）</p>
+			<table class="wikitable">
+				<tbody>
+					<tr>
+						<td id="skill3area" width="10%"></td>
+						<td width="45%">技能3</td>
+						<td id="skill3header" colspan="4" width="45%"></td>
+					</tr>
+					<tr>
+						<th width="10%">等级</th>
+						<th colspan="2" width="72%">描述</th>
+						<th width="6%">初始</th>
+						<th width="6%">消耗</th>
+						<th width="6%">持续</th>
+					</tr>
+					<tr>
+						<td>Rank III</td>
+						<td id="skill3effect" colspan="2"></td>
+						<td id="skill3initial"></td>
+						<td id="skill3cost"></td>
+						<td id="skill3span"></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</body>
+	<script>generate();</script>
+</html>

@@ -1,0 +1,15 @@
+[
+
+    [
+        "<span class='effect'>可充能${I(2,4)}次</span>"
+    ],
+    [
+        "<span class='effect'>自己每秒流失最大生命值的${I(1,3)}%</span>",
+        "第二次及以后使用时追加攻击力<span class='positive'>+${I(30,90)}%</span>的效果",
+        "<span class='effect'>技能未开启时无法普通攻击</span>",
+        "攻击范围内的所有友方单位防御力<span class='positive'>+${I(50,150)}%</span>",
+        "每次受到攻击时对目标造成相当于${operatorname}攻击力<span class='positive'>${I(50,150)}%</span>的物理伤害",
+        "附近所有敌军受到的法术伤害<span class='positive'>+${I(28,82)}%</span>，移动速度<span class='positive'>-${I(30,90)}%</span>",
+        "可以在上述状态和初始状态间切换"
+    ]
+]
