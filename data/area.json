@@ -1,8 +1,8 @@
 [
-    "siege.svg",
-    "ejy.svg",
-    "mizuki.svg",
-    "lin.svg",
-    "libre.svg",
-    "silver.svg"
+    [ 78, 78, "siege.svg" ],
+    [ 182, 182, "ejy.svg" ],
+    [ 130, 130, "mizuki.svg" ],
+    [ 130, 130, "lin.svg" ],
+    [ 52, 78, "libre.svg" ],
+    [ 104, 182, "silver.svg"]
 ]

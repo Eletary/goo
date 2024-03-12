@@ -58,7 +58,8 @@ function generatearea() {
     if (rand() % 2 == 0) {
         return "";
     }
-    return `<img src=src/area/${choice(area)} />`;
+    let arc = area[rand() % area.length];
+    return `<img style="vertical-align:top;width:${arc[0]}px;height:${arc[1]}px;width:!important;height:!important" src=src/area/${arc[2]} />`;
 }
 function generatesummonedability() {
     return "";
