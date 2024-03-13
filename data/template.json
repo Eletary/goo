@@ -1,52 +1,52 @@
 [
-    {
-        "name": "速射手",
-        "catergory": "【狙击】",
-        "effect": "优先攻击空中单位"
-    },
-    {
-        "name": "尖兵",
-        "catergory": "【先锋】",
-        "effect": "能够阻挡两个敌人"
-    },
-    {
-        "name": "轰击术师",
-        "catergory": "【术师】",
-        "effect": "攻击造成<span class='positive'>超远距离的群体法术伤害</span>"
-    },
-    {
-        "name": "中坚术师",
-        "catergory": "【术师】",
-        "effect": "攻击造成<span class='positive'>法术伤害</span>"
-    },
-    {
-        "name": "凝滞师",
-        "catergory": "【辅助】",
-        "effect": "攻击造成<span class='positive'>法术伤害</span>，并对敌人造成短暂的停顿"
-    },
-    {
-        "name": "医师",
-        "catergory": "【医疗】",
-        "effect": "恢复友方单位生命"
-    },
-    {
-        "name": "群愈师",
-        "catergory": "【医疗】",
-        "effect": "同时恢复三个友方单位的生命"
-    },
-    {
-        "name": "铁卫",
-        "catergory": "【重装】",
-        "effect": "能够阻挡三个敌人"
-    },
-    {
-        "name": "守护者",
-        "catergory": "【重装】",
-        "effect": "技能可以治疗友方单位"
-    },
-    {
-        "name": "领主",
-        "catergory": "【近卫】",
-        "effect": "可以进行<span class='positive'>远程攻击</span>，但此时攻击力降低至80%"
-    }
+	{
+		"name": "速射手",
+		"catergory": "【狙击】",
+		"effect": "优先攻击空中单位"
+	},
+	{
+		"name": "尖兵",
+		"catergory": "【先锋】",
+		"effect": "能够阻挡两个敌人"
+	},
+	{
+		"name": "轰击术师",
+		"catergory": "【术师】",
+		"effect": "攻击造成<span class='positive'>超远距离的群体法术伤害</span>"
+	},
+	{
+		"name": "中坚术师",
+		"catergory": "【术师】",
+		"effect": "攻击造成<span class='positive'>法术伤害</span>"
+	},
+	{
+		"name": "凝滞师",
+		"catergory": "【辅助】",
+		"effect": "攻击造成<span class='positive'>法术伤害</span>，并对敌人造成短暂的停顿"
+	},
+	{
+		"name": "医师",
+		"catergory": "【医疗】",
+		"effect": "恢复友方单位生命"
+	},
+	{
+		"name": "群愈师",
+		"catergory": "【医疗】",
+		"effect": "同时恢复三个友方单位的生命"
+	},
+	{
+		"name": "铁卫",
+		"catergory": "【重装】",
+		"effect": "能够阻挡三个敌人"
+	},
+	{
+		"name": "守护者",
+		"catergory": "【重装】",
+		"effect": "技能可以治疗友方单位"
+	},
+	{
+		"name": "领主",
+		"catergory": "【近卫】",
+		"effect": "可以进行<span class='positive'>远程攻击</span>，但此时攻击力降低至80%"
+	}
 ]

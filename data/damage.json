@@ -1,5 +1,5 @@
 [
-    "造成相当于攻击力<span class='positive'>${I(73,555)}%</span>的伤害",
-    "为周围血量不足一半的一名友方单位恢复相当于攻击力<span class='positive'>${I(90,270)}%</span>的生命",
-    "的攻击力提高至<span class='positive'>${I(195,385)}%</span>"
+	"造成相当于攻击力<span class='positive'>${I(73,555)}%</span>的伤害",
+	"为周围血量不足一半的一名友方单位恢复相当于攻击力<span class='positive'>${I(90,270)}%</span>的生命",
+	"的攻击力提高至<span class='positive'>${I(195,385)}%</span>"
 ]

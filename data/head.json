@@ -1,86 +1,86 @@
 [
-    [
-        {
-            "header": "<span class='atk skill'>攻击回复</span><span class='passive skill'>自动触发</span>",
-            "initial": "0",
-            "cost": "${I(1,6)}",
-            "span": ""
-        },
-        {
-            "header": "<span class='auto skill'>自动回复</span><span class='passive skill'>自动触发</span>",
-            "initial": "${I(5,15)}",
-            "cost": "${I(5,15)}",
-            "span": ""
-        },
-        {
-            "header": "<span class='auto skill'>自动回复</span><span class='passive skill'>自动触发</span>",
-            "initial": "0",
-            "cost": "${I(2,10)}",
-            "span": ""
-        }
-    ],
-    [
-        {
-            "header": "<span class='auto skill'>自动回复</span><span class='passive skill'>自动触发</span>",
-            "initial": "${I(10,30)}",
-            "cost": "${I(18,52)}",
-            "span": ""
-        }
-    ],
-    [
-        {
-            "header": "<span class='auto skill'>自动回复</span><span class='passive skill'>手动触发</span>",
-            "initial": "${I(12,82)}",
-            "cost": "${I(18,120)}",
-            "span": "${I(8,22)}"
-        },
-        {
-            "header": "<span class='auto skill'>自动回复</span><span class='passive skill'>手动触发</span>",
-            "initial": "${I(5,37)}",
-            "cost": "${I(13,52)}",
-            "span": "${I(13,37)}"
-        },
-        {
-            "header": "<span class='auto skill'>自动回复</span><span class='passive skill'>手动触发</span>",
-            "initial": "${I(0,30)}",
-            "cost": "${I(14,60)}",
-            "span": "${I(10,30)}"
-        },
-        {
-            "header": "<span class='auto skill'>自动回复</span><span class='passive skill'>手动触发</span>",
-            "initial": "${I(58,172)}",
-            "cost": "${I(60,180)}",
-            "span": "${I(30,90)}"
-        },
-        {
-            "header": "<span class='auto skill'>自动回复</span><span class='passive skill'>手动触发</span>",
-            "initial": "${I(5,105)}",
-            "cost": "${I(8,120)}",
-            "span": "${I(15,45)}"
-        },
-        {
-            "header": "<span class='auto skill'>自动回复</span><span class='passive skill'>手动触发</span>",
-            "initial": "0",
-            "cost": "${I(3,7)}",
-            "span": ""
-        },
-        {
-            "header": "<span class='auto skill'>自动回复</span><span class='passive skill'>自动触发</span>",
-            "initial": "${I(10,30)}",
-            "cost": "${I(15,45)}",
-            "span": "${I(8,22)}"
-        },
-        {
-            "header": "<span class='auto skill'>攻击回复</span><span class='passive skill'>自动触发</span>",
-            "initial": "0",
-            "cost": "${I(5,15)}",
-            "span": "${I(18,52)}"
-        },
-        {
-            "header": "<span class='passive skill'>被动</span>",
-            "initial": "",
-            "cost": "",
-            "span": ""
-        }
-    ]
+	[
+		{
+			"header": "<span class='atk skill'>攻击回复</span><span class='passive skill'>自动触发</span>",
+			"initial": "0",
+			"cost": "${I(1,6)}",
+			"span": ""
+		},
+		{
+			"header": "<span class='auto skill'>自动回复</span><span class='passive skill'>自动触发</span>",
+			"initial": "${I(5,15)}",
+			"cost": "${I(5,15)}",
+			"span": ""
+		},
+		{
+			"header": "<span class='auto skill'>自动回复</span><span class='passive skill'>自动触发</span>",
+			"initial": "0",
+			"cost": "${I(2,10)}",
+			"span": ""
+		}
+	],
+	[
+		{
+			"header": "<span class='auto skill'>自动回复</span><span class='passive skill'>自动触发</span>",
+			"initial": "${I(10,30)}",
+			"cost": "${I(18,52)}",
+			"span": ""
+		}
+	],
+	[
+		{
+			"header": "<span class='auto skill'>自动回复</span><span class='passive skill'>手动触发</span>",
+			"initial": "${I(12,82)}",
+			"cost": "${I(18,120)}",
+			"span": "${I(8,22)}"
+		},
+		{
+			"header": "<span class='auto skill'>自动回复</span><span class='passive skill'>手动触发</span>",
+			"initial": "${I(5,37)}",
+			"cost": "${I(13,52)}",
+			"span": "${I(13,37)}"
+		},
+		{
+			"header": "<span class='auto skill'>自动回复</span><span class='passive skill'>手动触发</span>",
+			"initial": "${I(0,30)}",
+			"cost": "${I(14,60)}",
+			"span": "${I(10,30)}"
+		},
+		{
+			"header": "<span class='auto skill'>自动回复</span><span class='passive skill'>手动触发</span>",
+			"initial": "${I(58,172)}",
+			"cost": "${I(60,180)}",
+			"span": "${I(30,90)}"
+		},
+		{
+			"header": "<span class='auto skill'>自动回复</span><span class='passive skill'>手动触发</span>",
+			"initial": "${I(5,105)}",
+			"cost": "${I(8,120)}",
+			"span": "${I(15,45)}"
+		},
+		{
+			"header": "<span class='auto skill'>自动回复</span><span class='passive skill'>手动触发</span>",
+			"initial": "0",
+			"cost": "${I(3,7)}",
+			"span": ""
+		},
+		{
+			"header": "<span class='auto skill'>自动回复</span><span class='passive skill'>自动触发</span>",
+			"initial": "${I(10,30)}",
+			"cost": "${I(15,45)}",
+			"span": "${I(8,22)}"
+		},
+		{
+			"header": "<span class='atk skill'>攻击回复</span><span class='passive skill'>自动触发</span>",
+			"initial": "0",
+			"cost": "${I(5,15)}",
+			"span": "${I(18,52)}"
+		},
+		{
+			"header": "<span class='passive skill'>被动</span>",
+			"initial": "",
+			"cost": "",
+			"span": ""
+		}
+	]
 ]

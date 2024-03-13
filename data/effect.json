@@ -1,44 +1,44 @@
 [
-    [
-        "并连续攻击<span class='positive'>${I(2,4)}</span>次",
-        "并获得<span class='positive'>${I(2,4)}</span>点部署费用",
-        "目标周围的敌人受到一半的爆炸伤害"
-    ],
-    [
-        "使目标防御力<span class='positive'>+${I(25,75)}%</span>"
-    ],
-    [
-        "立即获得<span class='positive'>${I(6,18)}</span>点部署费用",
-        "治疗攻击范围内的所有友军相当于${operatorname}攻击力<span class='positive'>${I(70,210)}%</span>的生命"
-    ],
-    [
-        "连续攻击<span class='positive'>${I(2,7)}</span>次",
-        "每次攻击造成相当于攻击力<span class='positive'>${I(23,197)}%</span>的伤害",
-        "攻击间隔<span class='effect'>变化(*${D(8,300)})</span>",
-        "攻击时攻击力提高至<span class='positive'>${I(240,520)}%</span>",
-        "每次攻击有<span class='positive'>${I(20,60)}%</span>的概率晕眩目标<span class='positive'>${D(75,225)}</span>秒",
-        "攻击目标数<span class='positive'>+${I(3,7)}</span>",
-        "视为近距离攻击"
-    ],
-    [
-        "对攻击范围内的地面敌人造成每秒相当于攻击力<span class='positive'>${I(70,210)}%</span>的伤害",
-        "对前方一格的所有敌人使用盾牌进行切割",
-        "附近所有友军每秒回复相当于${operatorname}攻击力<span class='positive'>${I(18,52)}%</span>的生命"
-    ],
-    [
-        "攻击力提升至<span class='positive'>${I(105,115)}%</span>",
-        "攻击力<span class='positive'>+${I(10,300)}%</span>",
-        "攻击速度<span class='positive'>+${I(30,120)}</span>",
-        "命中目标的法术抗性<span class='positive'>-${I(10,30)}</span>",
-        "全场所有敌人失重",
-        "攻击范围内的友方单位法术抗性<span class='positive'>+${I(75,225)}%</span>并获得<span class='positive'>${I(13,37)}%</span>的法术闪避",
-        "防御力<span class='positive'>+${I(15,150)}%</span>",
-        "防御力<span class='negative'>-${I(40,100)}%</span>",
-        "每秒恢复最大生命的<span class='positive'>${D(300,900)}%</span>"
-    ],
-    [
-        "防御力<span class='positive'>-${I(150,450)}</span>",
-        "每秒受到${operatorname}当前攻击力<span class='positive'>${I(17,49)}%</span>的法术伤害",
-        "法术抗性<span class='positive'>-${I(13,37)}%</span>"
-    ]
+	[
+		"并连续攻击<span class='positive'>${I(2,4)}</span>次",
+		"并获得<span class='positive'>${I(2,4)}</span>点部署费用",
+		"目标周围的敌人受到一半的爆炸伤害"
+	],
+	[
+		"使目标防御力<span class='positive'>+${I(25,75)}%</span>"
+	],
+	[
+		"立即获得<span class='positive'>${I(6,18)}</span>点部署费用",
+		"治疗攻击范围内的所有友军相当于${operatorname}攻击力<span class='positive'>${I(70,210)}%</span>的生命"
+	],
+	[
+		"连续攻击<span class='positive'>${I(2,7)}</span>次",
+		"每次攻击造成相当于攻击力<span class='positive'>${I(23,197)}%</span>的伤害",
+		"攻击间隔<span class='effect'>变化(*${D(8,300)})</span>",
+		"攻击时攻击力提高至<span class='positive'>${I(240,520)}%</span>",
+		"每次攻击有<span class='positive'>${I(20,60)}%</span>的概率晕眩目标<span class='positive'>${D(75,225)}</span>秒",
+		"攻击目标数<span class='positive'>+${I(3,7)}</span>",
+		"视为近距离攻击"
+	],
+	[
+		"对攻击范围内的地面敌人造成每秒相当于攻击力<span class='positive'>${I(70,210)}%</span>的伤害",
+		"对前方一格的所有敌人使用盾牌进行切割",
+		"附近所有友军每秒回复相当于${operatorname}攻击力<span class='positive'>${I(18,52)}%</span>的生命"
+	],
+	[
+		"攻击力提升至<span class='positive'>${I(105,115)}%</span>",
+		"攻击力<span class='positive'>+${I(10,300)}%</span>",
+		"攻击速度<span class='positive'>+${I(30,120)}</span>",
+		"命中目标的法术抗性<span class='positive'>-${I(10,30)}</span>",
+		"全场所有敌人失重",
+		"攻击范围内的友方单位法术抗性<span class='positive'>+${I(75,225)}%</span>并获得<span class='positive'>${I(13,37)}%</span>的法术闪避",
+		"防御力<span class='positive'>+${I(15,150)}%</span>",
+		"防御力<span class='negative'>-${I(40,100)}%</span>",
+		"每秒恢复最大生命的<span class='positive'>${D(300,900)}%</span>"
+	],
+	[
+		"防御力<span class='positive'>-${I(150,450)}</span>",
+		"每秒受到${operatorname}当前攻击力<span class='positive'>${I(17,49)}%</span>的法术伤害",
+		"法术抗性<span class='positive'>-${I(13,37)}%</span>"
+	]
 ]
